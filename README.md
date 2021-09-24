@@ -1,4 +1,4 @@
-# Tianchi-APTOS-Challenge
+# APTOS-Challenge
 Hi all here is the repo for some baseline methods for APTOS Big Data Competition 2021: Prediction on DME Patients' Response to Anti-VEGF Treatment.
 
 # PreProcessing
