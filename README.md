@@ -33,7 +33,7 @@ Finally the thickness can be calculated by counting the number of white pixels a
 <img src="200um.png" height="300px"> 
 
 To train a segmentation network, you may use the model and training data (1286 images available) from https://github.com/theislab/DeepRT. 
-Put `OCT_segmentation.py` to thickness_segmentation folder. Train (quite fast) and test in this folder also.
+After clone thast repo, put `OCT_segmentation.py` to thickness_segmentation folder. Train (quite fast) and test in this folder also.
 
 * As the training data in this challenge are weakly annotated, you may develop semi-supervised technique to fully utilized them.
 * You may improve the performance using better architectures rather than traditional U-Net.
@@ -68,6 +68,7 @@ pre and post VA/CST/IRF/SRF/PED/HRF and meta data. Images may also be used to tr
 Fundus images may also be used for regression of CST, VA, or prediction for IRF/SRF/HRF and so on.
 However, green lines are drawn on the raw images. Here we show some simple strategies to filter them and inpaint the images.
 See `inpaint_green.py` for examples.
+
 <img src="fundus.jpg" height="250px"> <img src="green_mask.jpg" height="250px"> <img src="inpainted.jpg" height="250px">
 
 * You may use other powerful methods to restore the fundus images or just use them directly.
