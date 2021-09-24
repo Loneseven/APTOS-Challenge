@@ -1,4 +1,4 @@
-# APTOS-Challenge
+# Tianchi-APTOS-Challenge
 Hi all here is the repo for some baseline methods for APTOS Big Data Competition 2021: Prediction on DME Patients' Response to Anti-VEGF Treatment.
 
 # PreProcessing
@@ -57,7 +57,7 @@ Such as in https://github.com/AMLab-Amsterdam/AttentionDeepMIL
 
 # VA
 It's an open problem to predict the postVA values. We may look for answers from academic papers about correlations between VA and 
-CST/IRF/SRF/PED/HRF/metadata. Maybe predicting the VA difference (delta VA) from the changes of fundus or aligned OCT images is a good way. 
+CST/IRF/SRF/PED/HRF/metadata. Maybe predicting the VA difference (delta VA) from the appearence changes of fundus or aligned OCT images is a good way. 
 
 # Continue injection
 It sounds like a data mining topic to determine whether the injection shall be continued or not. Models (such as LR, SVM, neural networks, etc) may be built upon the predicted values of
